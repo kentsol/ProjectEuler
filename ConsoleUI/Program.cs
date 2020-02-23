@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProblemLibrary;
+using System;
 
 namespace ConsoleUI
 {
@@ -6,7 +7,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(MultiplesOfThreeAndFive.GetSumOfMultiples());
+            
             Console.ReadLine();
         }
     }
