@@ -7,8 +7,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MultiplesOfThreeAndFive.GetSumOfMultiples());
-            
+            Console.WriteLine($"Solution to Problem 1 is: { MultiplesOfThreeAndFive.GetSumOfMultiples()}" );
+            Console.WriteLine($"Solution to Problem 2 is: { EvenFibonacciNumbers.GetAnswer()}");
+
+
             Console.ReadLine();
         }
     }
